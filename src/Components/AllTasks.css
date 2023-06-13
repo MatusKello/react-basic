@@ -12,11 +12,16 @@
 }
 
 .one-task button {
-  background-color: #011526;
+  background-color: #b41f94;
   color: #91bbf2;
   border: none;
   padding-right: 15px;
   cursor: pointer;
+}
+button:hover {
+  background-color: #91bbf2;
+  color: #011526;
+  transition: all 0.5s ease-in-out;
 }
 
 .main-button {
