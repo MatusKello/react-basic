@@ -9,7 +9,7 @@ const AllTasks = () => {
     /*     const filteredTasks = myTask.filter((oneTask) => {
       return oneTask.id === idcko;
     });  */
-
+    //! skrateny zapis
     setMyTask(myTask.filter((oneTask) => oneTask.id !== idcko));
   };
 
